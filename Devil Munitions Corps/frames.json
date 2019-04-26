@@ -1,11 +1,11 @@
 [
   {
-    "id": "Redgrave",
+    "id": "redgrave",
     "source": "DMC",
     "name": "REDGRAVE",
     "mechtype": "",
     "description": "",
-    "mounts" : ["flex", "main","Heavy"],
+    "mounts" : ["Flex", "Main","Heavy"],
     "stats": {
       "size": 1,
       "armor": 1,
@@ -24,7 +24,7 @@
       {
         "name": "Hunter",
         "description": "The Mech’s melee attacks become AP and deal +1d6 bonus damage if it is the only actor (allied or enemy) in engagement with the target"
-      }
+      },
       {
         "name": "Provocation",
         "description": "When this makes a barrage action you can forgo attacking with a second weapon to gain 2 Style charges."
@@ -40,90 +40,92 @@
     },
     "data_type": "frame",
     "aptitude": {}
-  }
+  },
   {
-    "id": "",
-    "source": "",
-    "name": "",
+    "id": "angelo",
+    "source": "DMC",
+    "name": "ANGELO",
     "mechtype": "",
     "description": "",
-    "mounts" : [],
+    "mounts" : ["Main/Aux"],
     "stats": {
-      "size": 0,
+      "size": 0.5,
       "armor": 0,
-      "hp": 0,
-      "evasion": 0,
-      "edef": 0,
-      "heatcap": 0,
-      "repcap": 0,
-      "sensor_range": 0,
-      "tech_attack": 0,
-      "save": 0,
-      "speed": 0,
-      "sp": 0
+      "hp": 6,
+      "evasion": 14,
+      "edef": 8,
+      "heatcap": 6,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": -1,
+      "save": 11,
+      "speed": 6,
+      "sp": 6
     },
     "traits": [
       {
-        "name": "",
-        "description": ""
+        "name": "Giantkiller",
+        "description": "The Angelo ignores engagement from actors larger than itself. It can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While the Angelo shares space with a character, it has soft cover from all sources and resistance to all damage from that character."
+      },
+      {
+        "name": "Concentration",
+        "description": "When your mech takes the Stabilize action in a combat scene, it gains a Style charge."
       }
     ],
     "core_system": {
-      "name": "",
+      "name": "Dark Slayer",
       "description": "",
-      "integrated": {
-        "name": "",
-        "mount": "",
-        "type": "",
-        "range": [],
-        "damage": [],
-        "effect": ""
-      },
       "passive": "",
-      "active_name": "",
-      "effect": "",
-      "tags": []
+      "active_name": "Might Controls Everything",
+      "effect": "Until the end of the current scene, when you move or boost you may teleport the same distance. Additionally, when you take the Stabilize action you gain 2 Style charges instead of 1.",
+      "tags": [{"id":"protocol"}]
     },
     "data_type": "frame",
     "aptitude": {}
-  }
+  },
   {
-    "id": "",
-    "source": "",
-    "name": "",
+    "id": "fortuna",
+    "source": "DMC",
+    "name": "FORTUNA",
     "mechtype": "",
     "description": "",
-    "mounts" : [],
+    "mounts" : ["Main","Heavy"],
     "stats": {
-      "size": 0,
-      "armor": 0,
-      "hp": 0,
-      "evasion": 0,
-      "edef": 0,
-      "heatcap": 0,
-      "repcap": 0,
-      "sensor_range": 0,
+      "size": 1,
+      "armor": 2,
+      "hp": 10,
+      "evasion": 6,
+      "edef": 6,
+      "heatcap": 5,
+      "repcap": 5,
+      "sensor_range": 10,
       "tech_attack": 0,
-      "save": 0,
-      "speed": 0,
-      "sp": 0
+      "save": 10,
+      "speed": 3,
+      "sp": 6
     },
     "traits": [
       {
-        "name": "",
-        "description": ""
+        "name": "Exceed",
+        "description": "When you land with a melee attack you can take 1 heat to gain 1 Style charge"
+      },
+      {
+        "name": "Cable Grapple",
+        "description": "The mech can initiate grapples up to range 5 away. If it successfully grapples its target, the mech is immediately pulled adjacent to its target by the straightest path possible (if it can’t move adjacent to its target, the grapple breaks and it does not move)."
       }
     ],
     "core_system": {
-      "name": "",
+      "name": "Devil Bringer",
       "description": "",
       "integrated": {
-        "name": "",
-        "mount": "",
-        "type": "",
-        "range": [],
-        "damage": [],
-        "effect": ""
+        "name": "Bringer Arm",
+        "mount": "Main",
+        "type": "Melee",
+        "range": [{"type":"threat",
+          "val":3}],
+        "damage": [{"type":"kinetic",
+          "val":"1d3+1"}],
+        "effect": "On a critical hit, your target is pulled to any free adjacent space to your mech, or as far as possible while still obeying obstructions."
       },
       "passive": "",
       "active_name": "",
