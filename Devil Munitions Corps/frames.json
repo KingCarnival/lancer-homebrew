@@ -1,0 +1,136 @@
+[
+  {
+    "id": "Redgrave",
+    "source": "DMC",
+    "name": "REDGRAVE",
+    "mechtype": "",
+    "description": "",
+    "mounts" : ["flex", "main","Heavy"],
+    "stats": {
+      "size": 1,
+      "armor": 1,
+      "hp": 12,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 5,
+      "repcap": 5,
+      "sensor_range": 5,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 4,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Hunter",
+        "description": "The Mech’s melee attacks become AP and deal +1d6 bonus damage if it is the only actor (allied or enemy) in engagement with the target"
+      }
+      {
+        "name": "Provacation",
+        "description": "When this makes a barrage action you can forgo attacking with a second weapon to gain 2 Style charges."
+      }
+    ],
+    "core_system": {
+      "name": "Style Change",
+      "description": "",
+      "passive": "Your mech selects one of the following four stances at the beginning of its turn; its effects apply the beginning of your next turn Trickster: 1/round when an attack against you misses you can move 3 spaces ignoring engagement Swordmaster: All your Melee weapons gain +1 Threat Gunslinger: Your Ranged Weapons gain Reliable 1. If a Ranged Weapon already has Reliable increase its Reliable rating by 1. Royal Guard: When hit by an attack, roll a d6 if it comes up a 6 gain resistance to the damage of the attack.",
+      "active_name": "Sin Trigger",
+      "effect": "",
+      "tags": []
+    },
+    "data_type": "frame",
+    "aptitude": {}
+  }
+  {
+    "id": "",
+    "source": "",
+    "name": "",
+    "mechtype": "",
+    "description": "",
+    "mounts" : [],
+    "stats": {
+      "size": 0,
+      "armor": 0,
+      "hp": 0,
+      "evasion": 0,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 0
+    },
+    "traits": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ],
+    "core_system": {
+      "name": "",
+      "description": "",
+      "integrated": {
+        "name": "",
+        "mount": "",
+        "type": "",
+        "range": [],
+        "damage": [],
+        "effect": ""
+      },
+      "passive": "",
+      "active_name": "",
+      "effect": "",
+      "tags": []
+    },
+    "data_type": "frame",
+    "aptitude": {}
+  }
+  {
+    "id": "",
+    "source": "",
+    "name": "",
+    "mechtype": "",
+    "description": "",
+    "mounts" : [],
+    "stats": {
+      "size": 0,
+      "armor": 0,
+      "hp": 0,
+      "evasion": 0,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 0
+    },
+    "traits": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ],
+    "core_system": {
+      "name": "",
+      "description": "",
+      "integrated": {
+        "name": "",
+        "mount": "",
+        "type": "",
+        "range": [],
+        "damage": [],
+        "effect": ""
+      },
+      "passive": "",
+      "active_name": "",
+      "effect": "",
+      "tags": []
+    },
+    "data_type": "frame",
+    "aptitude": {}
+  }
+]
