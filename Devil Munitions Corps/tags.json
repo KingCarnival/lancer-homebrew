@@ -1,0 +1,12 @@
+[
+  {
+    "id": "",
+    "name": "({VAL})",
+    "description": "{VAL}"
+  },
+  {
+    "id": "style",
+    "name": "Style",
+    "description": "Once per round, if you get a critical hit or destroy a hostile actor you gain 1 Style charge. Style charges gained through actions can spent on Systems and Weapons with this keyword for additional effect."
+  }
+]
