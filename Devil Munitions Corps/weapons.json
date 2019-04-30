@@ -14,5 +14,51 @@
     "description": "",
     "data_type": "weapon",
     "aptitude": {}
+  },
+
+  {
+    "id": "ebony_and_ivory",
+    "name": "Ebony & Ivory",
+    "mount": "Aux",
+    "type": "CQB",
+    "damage": [{
+      "type":"variable",
+      "val": "1d3"
+    }],
+    "range": [{
+      "type": "thrown",
+      "val": 5
+    },
+    { 
+      "type": "threat",
+      "val": 3
+    }],
+    "tags": [],
+    "source": "DMC",
+    "license": "REDGRAVE",
+    "license_level": 1,
+    "effect": "When you attack you deal either Explosive or Kinetic Damage. If two of these weapons are on the same mount they each gain Reliable 1",
+    "description": "",
+    "data_type": "weapon",
+    "aptitude": {}
+  },
+  {
+    "id": "rebellion",
+    "name": "Rebellion",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [{    
+      "type": "kinetic",
+      "val": "1d6"
+    }],
+    "range": [],
+    "tags": [],
+    "source": "",
+    "license": "",
+    "license_level": 1,
+    "effect": "",
+    "description": "",
+    "data_type": "weapon",
+    "aptitude": {}
   }
 ]
